@@ -1,0 +1,88 @@
+body {
+    background-color: #F2CB05;
+    font-family: 'Patrick Hand';
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 40px;
+}
+
+#logo {
+    margin-right: 20px;
+    width: 120px;
+}
+
+h1 {
+    margin-right: 20px;
+    font-size: 3em;
+}
+
+#location {
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+#search {
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#search:hover {
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+#weathericon {
+    width: 250px;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.9em;
+}
+
+p {
+    margin: 0 0 25px 0;
+}
+
+#farenheit {
+    color: #736002;
+    margin-left: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tempdiv {
+    display: flex;
+}
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    text-align: center;
+    color: #0700A6;
+    font-family: 'Roboto';
+}

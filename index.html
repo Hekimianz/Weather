@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherSearch</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="top">
+        <img id="logo" src="./Logo.png" alt="Logo">
+        <h1>WeatherSearch</h1>
+        <div id="searchbox">
+            <input type="text" id="location" placeholder="Enter a city name: ">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <div id="results">
+        <h2 id="cityname">Enter a City!</h2>
+        <p id="cityinfo">Wonderland</p>
+        <img id="weathericon" src="./icons/rain.png" alt="weathericon">
+        <div id="tempdiv">
+            <p id="temperature">0°C</p> <span id="farenheit">°F</span>
+        </div>
+        <p id="weatherdesc">Raining Meatballs</p>
+        <p id="humidity">Humidity: 0%</p>
+        <p id="windspeed">Wind Speed: 0M/sec</p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+<foot>
+    <span id="footer">Made by Aram Hekimian Guerrero</span>
+</foot>
+
+</html>
